@@ -49,27 +49,27 @@ Examples:
 Examples:
 
 <dl>
-  <dt>ls</dt>
+  <dt class="code">ls</dt>
   <dd>list just the names of the files in the current directory</dd>
 
-  <dt>ls -l</dt>
+  <dt class="code">ls -l</dt>
   <dd>(long) list the files with their characteristics (size, privs, owner, etc)</dd>
 
-  <dt>ls -lo</dt>
+  <dt class="code">ls -lo</dt>
   <dd>list the files with their flags (see chflags) in addition to the usual characteristics -l shows</dd>
 
-  <dt>ls -a</dt>
+  <dt class="code">ls -a</dt>
   <dd>list all files in the current directory (including those that would normally be invisible)</dd>
 
-  <dt>ls -F</dt>
-  <dd>list filenames with a special character at the end that tells you what kind of file it is ("/" for directory, "\*" for unix executable, "@" for alias/symlink, etc)</dd>
+  <dt class="code">ls -F</dt>
+  <dd>list filenames with a special character at the end that tells you what kind of file it is ("/" for directory, "*" for unix executable, "@" for alias/symlink, etc)</dd>
 
-  <dt>ls \*.jpg</dt>
+  <dt class="code">ls *.jpg</dt>
   <dd>list the names of all files with names ending in ".jpg"</dd>
 
-  <dt>ls a\*</dt>
+  <dt class="code">ls a*</dt>
   <dd>list the names of all files with names beginning with "a"</dd>
 
-  <dt>ls \*att\*</dt>
+  <dt class="code">ls *att*</dt>
   <dd>list the names of all files with names containing "att"</dd>
 </dl>
