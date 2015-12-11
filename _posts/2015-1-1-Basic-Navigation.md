@@ -3,7 +3,7 @@ layout: post
 title: Basic Navigation (cd, pwd, ls) 
 ---
 
-### `cd` - Change directory. This lets you navigate to different directories (folders).
+### _`cd`_ - Change directory. This lets you navigate to different directories.
 
 Examples:
 
