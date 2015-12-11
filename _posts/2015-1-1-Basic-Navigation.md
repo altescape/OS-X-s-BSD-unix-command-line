@@ -3,7 +3,7 @@ layout: post
 title: Basic Navigation (cd, pwd, ls) 
 ---
 
-### __`cd`__ - Change directory. This lets you navigate to different directories.
+<h3 id="cd"><strong class="code">cd</strong> - Change directory. This lets you navigate to different directories.</h3>
 
 Examples:
 
@@ -41,11 +41,11 @@ Examples:
 
 ---
 
-### __`pwd`__ - Print working directory. This prints the path of the current working directory (i.e. it tells you where you are).
+<h3 id="pwd"><strong class="code">pwd</strong> - Print working directory. This prints the path of the current working directory (i.e. it tells you where you are).</h3>
 
 ---
 
-### __`ls`__ - List the files in the current directory, and (optionally) their characteristics.
+<h3 id="ls"><strong class="code">ls</strong> - List the files in the current directory, and (optionally) their characteristics.</h3>
 
 Examples:
 
