@@ -54,3 +54,18 @@ table {
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
+
+dl {
+  margin-bottom: 20px;
+
+  dt {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    line-height: 1.7;
+  }
+
+  dd {
+    margin-left: 20px;
+  }
+}
