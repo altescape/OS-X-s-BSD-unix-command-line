@@ -39,6 +39,7 @@ Examples:
   <dd>go back to the previous directory</dd>
 </dl>
 
+---
 
 ### __`pwd`__ - Print working directory. This prints the path of the current working directory (i.e. it tells you where you are).
 
@@ -73,3 +74,5 @@ Examples:
   <dt class="code">ls *att*</dt>
   <dd>list the names of all files with names containing "att"</dd>
 </dl>
+
+---
