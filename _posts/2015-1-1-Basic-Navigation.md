@@ -8,34 +8,34 @@ title: Basic Navigation (cd, pwd, ls)
 Examples:
 
 <dl>
-  <dt>`cd Documents`</dt>
+  <dt class="code">cd Documents</dt>
   <dd>go into a subdirectory (of the current directory) named "Documents"</dd>
 
-  <dt>`cd Documents/temp`</dt>
+  <dt class="code">cd Documents/temp</dt>
   <dd>go into "Documents", then from there into a subdirectory named "temp"</dd>
 
-  <dt>`cd ..`</dt>
+  <dt class="code">cd ..</dt>
   <dd>go up to the parent of the current directory</dd>
 
-  <dt>`cd ../..`</dt>
+  <dt class="code">cd ../..</dt>
   <dd>go up two levels, to the parent's parent</dd>
 
-  <dt>`cd /`</dt>
+  <dt class="code">cd /</dt>
   <dd>go to the top of the boot volume</dd>
 
-  <dt>`cd /Users`</dt>
+  <dt class="code">cd /Users</dt>
   <dd>go to the top of the boot volume, then into the top-level directory named "Users"</dd>
 
-  <dt>`cd ~`<dt>
+  <dt class="code">cd ~<dt>
   <dd>go to your home directory (note: that's a tilde, not a dash)</dd>
 
-  <dt>`cd ~/Documents`</dt>
+  <dt class="code">cd ~/Documents</dt>
   <dd>go to your home directory, then into your "Documents" directory</dd>
 
-  <dt>`cd '/Applications (MacOS 9)'`</dt>
+  <dt class="code">cd '/Applications (MacOS 9)'</dt>
   <dd>go to the of the boot volume, then into the top-level directory named "Applications (MacOS 9)". The quote marks tell the shell (command interpreter) to ignore the special characters (spaces and parentheses) in the directory name that would otherwise confuse it.</dd>
 
-  <dt>`cd -`</dt>
+  <dt class="code">cd -</dt>
   <dd>go back to the previous directory</dd>
 </dl>
 
