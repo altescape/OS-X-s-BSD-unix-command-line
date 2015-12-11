@@ -63,9 +63,14 @@ dl {
     display: block;
     margin-bottom: 10px;
     line-height: 1.7;
+
+    &.code {
+      @extend code;
+    }
   }
 
   dd {
     margin-left: 20px;
+    margin-bottom: 40px;
   }
 }
